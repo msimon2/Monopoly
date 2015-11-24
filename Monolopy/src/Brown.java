@@ -17,6 +17,11 @@ public class Brown extends Properties
 		hotelCost = hotelC;
 		}
 	
+	public String getName()
+		{
+		return name;
+		}
+	
 	//public int collectRent()
 		{
 		

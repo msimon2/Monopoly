@@ -16,6 +16,10 @@ public class LightBlue extends Properties
 		houseCost = houseC;
 		hotelCost = hotelC;
 		}
+	public String getName()
+		{
+		return name;
+		}
 	
 	//public int collectRent()
 		{
