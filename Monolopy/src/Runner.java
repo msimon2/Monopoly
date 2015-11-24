@@ -1,9 +1,12 @@
+import java.util.*;
+
 
 public class Runner
 	{
 	public static void main(String[] args)
 		{
-		Spaces MediterraneanAve = new Brown("Mediterranean Avenue", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+		ArrayList <Runner> spaces = new ArrayList<Runner>();
+		spaces.add(new Brown("Mediterranean Avenue", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0));
 		Spaces BalticAve = new Brown("Baltic Avenue", 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 		Spaces OrientalAve = new LightBlue("Oriental Avenue", 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
 		Spaces VermontAve = new LightBlue("Vermont Avenue", 9, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
